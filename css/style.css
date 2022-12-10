@@ -3,21 +3,52 @@
     padding: 0;
 
 }
-
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+     }
 a {
     text-decoration: none;
 
 }
 
-li {
-    list-style: none;
-}
-
 body {
 
-    font-family: 'Sono', serif;
-    background-color: #f3f1f2;
+    /* font-family: 'Sono', serif; */
+    background-color: #f3f2f1;
 
+}
+.navbar
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.login {
+    border: 0px;
+    height: 70px;
+    width: 500px;
+    color: #fff;
+    background-color: #e94e38;
+    font-size: 18px;
+    
+}
+.login:hover
+{
+    background-color: #ee3219;
+}
+.search:hover
+{
+    background-color: #d1d0d1;
+}
+.search {
+    height: 70px;
+    width: 120px;
+    color: #fff;
+    background-color: #e2dee0;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 800;
 }
 
 header {
@@ -25,13 +56,25 @@ header {
     background-color: rgb(255, 255, 255);
     display: flex;
 }
+.logo {
+    padding-left: 200px;
+}
 
 .header__logo {
-    padding-left: 200px;
-    margin-top: -60px;
-    font-size: 24px;
+    padding-left: 10px;  
+    font-size:30px;
     color: #5a6976;
-    font-weight: 800;
+    font-weight: 600;
+}
+.navbar-nav
+{
+    margin: 0 0 0 auto;
+}
+.nav-link
+{
+    color: #96a6a7;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .top-slide {
@@ -45,11 +88,7 @@ h2 {
     padding-left: 40%;
 }
 
-.logo {
-    padding-left: 150px;
-    margin-top: 14px;
-    padding-bottom: 15px;
-}
+
 
 .select_search {
     margin-left: 15px;
@@ -85,39 +124,17 @@ select {
     margin-top: 40px;
     margin-bottom: 60px;
 }
-
-li {
-    padding: 18px;
-    font-weight: 600;
-    color: #96a6a7;
-
+.button_search:hover
+{
+    background-color: #ee3219;
 }
+.nav-item.lin {
 
-ul {
-    margin-left: 30%;
-    display: flex;
-    text-transform: uppercase;
+padding-left: 20px;
 }
+   
 
-.login {
-    height: 100%;
-    width: 435px;
-    color: #fff;
-    background-color: #e94e38;
-    border: 0px;
-    padding-right: 50%;
-    font-size: 18px;
-}
 
-.search {
-    height: 100%;
-    width: 80px;
-    color: #fff;
-    background-color: #e2dee0;
-    border: 0px;
-    font-size: 25px;
-    font-weight: 800;
-}
 
 .fa-user-o {
     padding-right: 10px;
@@ -197,4 +214,49 @@ header {
 .card_2
 {
     margin-top: 30px;
+}
+.buttom-button
+{
+    border: none;
+    color: #566375;
+    background-color:#f3f1f2 ;
+    box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.103);
+    font-weight: 500;
+    font-size: 20px;
+}
+.container.full
+{
+    box-shadow: 0 1px 0px 0px rgba(0, 0, 0, 0.103);
+}
+.col.bttom
+{
+    margin: 10px;
+    margin-bottom: 40px;
+}
+.fa-long-arrow-right
+{
+    margin-left: 5px;
+    color:#566375;
+    
+}
+.row.low
+{
+    margin-top: 80px;
+    margin-bottom: 100px;
+  
+}
+.width-text
+{
+    font-weight: 500;
+    font-size: 25px;
+    color: #566375;
+}
+.low-text
+{
+    font-size: 18   px; 
+    color: #bfc1c2;
+}
+.row.low
+{
+ margin-top: 100px;
 }
